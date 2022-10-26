@@ -1,0 +1,62 @@
+/* navbar */
+/* body{
+    background-color: aqua;
+    /* opacity: 0.75; */
+
+#about::before{
+    content: "";
+    background:url(./img/nature.jpg)  center center/cover;
+    position: absolute;
+    height: 1600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    top: 0px;
+    left: 0px;
+}
+.navbar-nav a{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
+    font-family: "Nunito",sans-serif;
+}
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: 200;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+.carousel-inner img{
+    height: 500px;
+}
+#navbar{
+    position:sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+#navbar::before{
+    content: "";
+    background-color:black;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#aboutus{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.card{
+    margin:10px 50px 10px 75px;
+}
+.card:hover{
+    box-shadow: 8px 3px 3px red;
+    
+}
