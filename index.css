@@ -27,7 +27,10 @@
 }
 
 
-
+#navbarNavDropdown{
+    /* display: flex; */
+    justify-content: right;
+}
 .carousel-inner img{
     height: 500px;
 }
@@ -59,4 +62,15 @@
 .card:hover{
     box-shadow: 8px 3px 3px red;
     
+}
+#footer{
+    color: white;
+    background-color: black;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    background-color:black;
+    color: white;
+    padding: 8px 11px;
 }
