@@ -9,7 +9,10 @@
     font-weight: 200;
     font-family: 'Bebas Neue', cursive;
 }
-
+#navbarNavDropdown{
+    /* display: flex; */
+    justify-content: right;
+}
 .dropdown-menu{
     background-color:black;
     color: black;
